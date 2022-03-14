@@ -140,7 +140,6 @@ body{                        /*DEBUT GESTION DU BODY*/
 }
 .navbar a{
     text-decoration: none;
-    display: none;
 }
 
 .home, .profile, .cursus, .skills, .project, .techno-watching {
