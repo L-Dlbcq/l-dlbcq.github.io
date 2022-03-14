@@ -112,6 +112,7 @@ body{                        /*DEBUT GESTION DU BODY*/
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     color: black;
+    transform: rotateX(0deg);
 }
 
 .home-arriere, .profile-arriere, .cursus-arriere, .skills-arriere, .project-arriere, .techno-watching-arriere {
@@ -124,6 +125,7 @@ body{                        /*DEBUT GESTION DU BODY*/
     color: white;
     font-size: 150%;
     transform: rotateY(180deg);
+    transform: rotateX(0deg);
 }                    
 
                                 /*FIN MISE EN PLACE NAVBAR + GESTION DE L'EFFET DES LIENS*/
