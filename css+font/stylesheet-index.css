@@ -1,31 +1,30 @@
-@font-face{                     /*DEBUT DEFINITION POLICE D'ECRITURE*/
+/*DECLARATION FONT*/
+@font-face{
     font-family: "font";
     src: url('font.ttf')
-}                       /*FIN DEFINITION POLICE D'ECRITURE*/
-
-
-
-* {                     /*DEBUT SUPPRESSION DES BARRES BLANCHES*/
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
 }
-                          /*FIN SUPPRESSION DES BARRES BLANCHES*/
 
 
+/*SUPPRESSION BARRE BLANCHES*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 
-html{                     /*DEBUT GESTION TAILLE PAGE HTML*/
+
+/*HTML*/
+html{
     height: 100%;
 }
-                              /*FIN GESTION TAILLE PAGE HTML*/
 
 
-
-.header {                     /*DEBUT MISE EN PLACE HEADER + MISE EN FORME BALISE H1 ET BALISE H2*/ 
+/*DIV header*/
+.header {
     padding: 2.01%;
     background: black;
     color: black;
@@ -39,20 +38,19 @@ html{                     /*DEBUT GESTION TAILLE PAGE HTML*/
 .header p{
     text-align: center;
 }
-                             /*FIN MISE EN PLACE HEADER + MISE EN FORME BALISE H1 ET BALISE H2*/
 
 
-
-body{                        /*DEBUT GESTION DU BODY*/
+/*BODY*/
+body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 100%;
 }
-                             /*FIN GESTION DU BODY*/
 
 
 
-.texte {                     /*DEBUT GESTION DU TEXTE + GESTION BALISE H2 ET BALISE P*/
+/*DIV texte ET texte-PPE */
+.texte {
     font-family: 'font', sans-serif;
     color: black;
     padding: 5%;
@@ -64,14 +62,28 @@ body{                        /*DEBUT GESTION DU BODY*/
     text-decoration: underline;
     font-size: 250%;
 }
+
 .texte p{
     font-size: 200%;
     font-weight: bolder;
 }
-                             /*FIN GESTION DU TEXTE + GESTION BALISE H2 ET BALISE P*/
+
+.texte-PPE, .texte-SitPro {
+    font-family: 'font', sans-serif;
+    color: black;
+    padding-bottom: 2%;
+    display: block;
+    text-align: center;
+}
+
+.texte-PPE h2, .texte-SitPro{
+    text-decoration: underline;
+    font-size: 250%;
+}
 
 
-.navbar{                     /*DEBUT MISE EN PLACE NAVBAR + GESTION DE L'EFFET DES LIENS*/
+/*DIV PPE-A, PPE-B, SitPro-A ET SitPro-B*/
+.PPE-A, .PPE-B, .SitPro-A, .SitPro-B {
     font-family: 'font', sans-serif;
     color: black;
     float: none;
@@ -81,55 +93,143 @@ body{                        /*DEBUT GESTION DU BODY*/
     justify-content: center;
 
 }
+
+.PPE-A a, .PPE-B a, .SitPro-A a, .SitPro-B a {
+    text-decoration: none;
+}
+
+.PPE-A, .PPE-B, .SitPro-A{
+    padding-bottom: 1.5%;
+}
+
+.SitPro-B{
+    padding-bottom: 5%;
+}
+
+/*CARTE PPE1 à PPE4 ET SDE18*/
+.PPE1 a, .PPE2 a, .PPE3 a, .PPE4 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.PPE1 p, .PPE2 p, .PPE3 p, .PPE4 p, .SitPro1 p, .SitPro2 p, .SitPro3 p, .SitPro4 p, .SitPro5 p, .SitPro6 p {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.PPE1 , .PPE2 , .PPE3 , .PPE4, .SitPro1, .SitPro2, .SitPro3, .SitPro4, .SitPro5, .SitPro6 {
+    background-color: transparent;
+    width: 288px;
+    height: 288px;
+    perspective: 1000px;
+    font-family: 'font', sans-serif;
+
+}
+
+.PPE1-interne, .PPE2-interne, .PPE3-interne, .PPE4-interne, .SitPro1-interne, .SitPro2-interne, .SitPro3-interne, .SitPro4-interne, .SitPro5-interne, .SitPro6-interne {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.PPE1:hover .PPE1-interne, .PPE2:hover .PPE2-interne, .PPE3:hover .PPE3-interne, .PPE4:hover .PPE4-interne, .SitPro1:hover .SitPro1-interne, .SitPro2:hover .SitPro2-interne, .SitPro3:hover .SitPro3-interne, .SitPro4:hover .SitPro4-interne, .SitPro5:hover .SitPro5-interne, .SitPro6:hover .SitPro6-interne {
+    transform: rotateY(180deg);
+}
+
+.PPE1-facade, .PPE2-facade, .PPE3-facade, .PPE4-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade, .PPE1-arriere, .PPE2-arriere, .PPE3-arriere, .PPE4-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+}
+
+.PPE1-facade, .PPE2-facade, .PPE3-facade, .PPE4-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade {
+    background-color: #fff;
+    color: black;
+}
+
+.PPE1-arriere, .PPE2-arriere, .PPE3-arriere, .PPE4-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    transform: rotateY(180deg);
+}     
+
+
+
+
+/*NAVBAR*/
+.navbar{
+    font-family: 'font', sans-serif;
+    color: black;
+    float: none;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
 .navbar a{
     text-decoration: none;
 }
 
+
+/*CARTE NAVBAR*/
 .home, .profile, .cursus, .skills, .project, .techno-watching {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
+    background-color: transparent;
+    width: 256px;
+    height: 256px;
+    perspective: 1000px;
+    font-family: 'font', sans-serif;
+
+}
 
 .home-interne, .profile-interne, .cursus-interne, .skills-interne, .project-interne, .techno-watching-interne  {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
-    
+
 .home:hover .home-interne, .profile:hover .profile-interne,  .cursus:hover .cursus-interne , .skills:hover .skills-interne , .project:hover .project-interne, .techno-watching:hover .techno-watching-interne {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .home-facade, .profile-facade, .cursus-facade, .skills-facade, .project-facade, .techno-watching-facade, .home-arriere, .profile-arriere, .cursus-arriere, .skills-arriere, .project-arriere, .techno-watching-arriere {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform: rotateX(0deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
 }
 
 .home-facade, .profile-facade, .cursus-facade, .skills-facade, .project-facade, .techno-watching-facade {
-  background-color: #fff;
-  color: black;
+    background-color: #fff;
+    color: black;
 }
 
 .home-arriere, .profile-arriere, .cursus-arriere, .skills-arriere, .project-arriere, .techno-watching-arriere {
-  background-color: black;
-  color: white;
-  transform: rotateY(180deg);
-}
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    transform: rotateY(180deg);
+}                    
 
-                                /*FIN MISE EN PLACE NAVBAR + GESTION DE L'EFFET DES LIENS*/
 
-
-
-.footer {                       /*DEBUT MISE EN PLACE D'UN FOOTER + MISE EN FORME DES LIENS*/
+/*FOOTER*/
+.footer {
     position: sticky;
     width:100%;
     height: 100%;
@@ -143,7 +243,8 @@ body{                        /*DEBUT GESTION DU BODY*/
     justify-content: center;
 }
 
+
+/*CARTE FOOTER*/
 .github:hover, .twitter:hover, .instagram:hover, .linkedin:hover {
     background-color:lightgray;
 }
-                                /*FIN MISE EN PLACE D'UN FOOTER + MISE EN FORME DES LIENS*/
