@@ -48,7 +48,7 @@ body{
 }
 
 
-/*DIV texte ET texte-PPE */
+/*DIV texte, texte-PPE, texte-SitPro et texte-Tab */
 .texte {
     font-family: 'font', sans-serif;
     color: black;
@@ -67,7 +67,7 @@ body{
     font-weight: bolder;
 }
 
-.texte-PPE, .texte-SitPro {
+.texte-PPE, .texte-SitPro, .texte-Tab {
     font-family: 'font', sans-serif;
     color: black;
     padding-bottom: 2%;
@@ -75,7 +75,7 @@ body{
     text-align: center;
 }
 
-.texte-PPE h2, .texte-SitPro{
+.texte-PPE h2, .texte-SitPro h2, .texte-Tab h2{
     text-decoration: underline;
     font-size: 250%;
 }
