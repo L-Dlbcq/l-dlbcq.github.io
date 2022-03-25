@@ -82,88 +82,6 @@ body{
 }
 
 
-/*DIV PPE-A, PPE-B, SitPro-A ET SitPro-B*/
-.PPE-A, .PPE-B, .SitPro-A, .SitPro-B {
-    font-family: 'font', sans-serif;
-    color: black;
-    float: none;
-    top: 50%;
-    left: 50%;
-    display: flex;
-    justify-content: center;
-
-}
-
-.PPE-A a, .PPE-B a, .SitPro-A a, .SitPro-B a {
-    text-decoration: none;
-}
-
-.PPE-A, .PPE-B, .SitPro-A{
-    padding-bottom: 1.5%;
-}
-
-.SitPro-B{
-    padding-bottom: 5%;
-}
-
-/*CARTE PPE1 à PPE4 ET SDE18*/
-.PPE1 a, .PPE2 a, .PPE3 a, .PPE4 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
-    text-decoration: none;
-    color: white;
-
-}
-
-.PPE1 p, .PPE2 p, .PPE3 p, .PPE4 p, .SitPro1 p, .SitPro2 p, .SitPro3 p, .SitPro4 p, .SitPro5 p, .SitPro6 p {
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.PPE1 , .PPE2 , .PPE3 , .PPE4, .SitPro1, .SitPro2, .SitPro3, .SitPro4, .SitPro5, .SitPro6 {
-    background-color: transparent;
-    width: 288px;
-    height: 288px;
-    perspective: 1000px;
-    font-family: 'font', sans-serif;
-
-}
-
-.PPE1-interne, .PPE2-interne, .PPE3-interne, .PPE4-interne, .SitPro1-interne, .SitPro2-interne, .SitPro3-interne, .SitPro4-interne, .SitPro5-interne, .SitPro6-interne {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.PPE1:hover .PPE1-interne, .PPE2:hover .PPE2-interne, .PPE3:hover .PPE3-interne, .PPE4:hover .PPE4-interne, .SitPro1:hover .SitPro1-interne, .SitPro2:hover .SitPro2-interne, .SitPro3:hover .SitPro3-interne, .SitPro4:hover .SitPro4-interne, .SitPro5:hover .SitPro5-interne, .SitPro6:hover .SitPro6-interne {
-    transform: rotateY(180deg);
-}
-
-.PPE1-facade, .PPE2-facade, .PPE3-facade, .PPE4-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade, .PPE1-arriere, .PPE2-arriere, .PPE3-arriere, .PPE4-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-}
-
-.PPE1-facade, .PPE2-facade, .PPE3-facade, .PPE4-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade {
-    background-color: #fff;
-    color: black;
-}
-
-.PPE1-arriere, .PPE2-arriere, .PPE3-arriere, .PPE4-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
-    background-color: black;
-    color: white;
-    font-size: 150%;
-    font-weight: bold;
-    transform: rotateY(180deg);
-}     
-
-
-
 
 /*NAVBAR*/
 .navbar{
@@ -222,7 +140,7 @@ body{
 .home-arriere, .profile-arriere, .cursus-arriere, .skills-arriere, .project-arriere, .techno-watching-arriere {
     background-color: black;
     color: white;
-    font-size: 150%;
+    font-size: 300%;
     font-weight: bold;
     transform: rotateY(180deg);
 }                    
