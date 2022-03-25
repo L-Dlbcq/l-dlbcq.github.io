@@ -247,16 +247,16 @@ body{
 }
 
 /*CARTE NAVBAR*/
-.home, .profile, .cursus, .skills, .project, .techno-watching {
+.home, .profile, .cursus, .techno-watching {
     background-color: transparent;
     width: 256px;
     height: 256px;
     perspective: 1000px;
     font-family: 'font', sans-serif;
-
+    font-size: 200%;
 }
 
-.home-interne, .profile-interne, .cursus-interne, .skills-interne, .project-interne, .techno-watching-interne  {
+.home-interne, .profile-interne, .cursus-interne, .techno-watching-interne  {
     position: relative;
     width: 100%;
     height: 100%;
@@ -265,11 +265,11 @@ body{
     transform-style: preserve-3d;
 }
 
-.home:hover .home-interne, .profile:hover .profile-interne,  .cursus:hover .cursus-interne , .skills:hover .skills-interne , .project:hover .project-interne, .techno-watching:hover .techno-watching-interne {
+.home:hover .home-interne, .profile:hover .profile-interne,  .cursus:hover .cursus-interne , .techno-watching:hover .techno-watching-interne {
     transform: rotateY(180deg);
 }
 
-.home-facade, .profile-facade, .cursus-facade, .skills-facade, .project-facade, .techno-watching-facade, .home-arriere, .profile-arriere, .cursus-arriere, .skills-arriere, .project-arriere, .techno-watching-arriere {
+.home-facade, .profile-facade, .cursus-facade, .techno-watching-facade, .home-arriere, .profile-arriere, .cursus-arriere, .techno-watching-arriere {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -278,12 +278,12 @@ body{
     transform: rotateX(0deg);
 }
 
-.home-facade, .profile-facade, .cursus-facade, .skills-facade, .project-facade, .techno-watching-facade {
+.home-facade, .profile-facade, .cursus-facade, .techno-watching-facade {
     background-color: #fff;
     color: black;
 }
 
-.home-arriere, .profile-arriere, .cursus-arriere, .skills-arriere, .project-arriere, .techno-watching-arriere {
+.home-arriere, .profile-arriere, .cursus-arriere, .techno-watching-arriere {
     background-color: black;
     color: white;
     font-size: 150%;
