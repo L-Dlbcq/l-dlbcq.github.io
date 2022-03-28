@@ -30,7 +30,7 @@ html{
     background: black;
     color: black;
     font-size: 250%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 .header h1{
     text-align: center;
@@ -52,7 +52,7 @@ body{
 
 /*DIV texte ET texte-PPE */
 .texte {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: black;
     padding: 5%;
     display: block;
@@ -70,7 +70,7 @@ body{
 }
 
 .texte-PPE, .texte-SitPro {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: black;
     padding-bottom: 2%;
     display: block;
@@ -86,7 +86,7 @@ body{
 
 /*NAVBAR*/
 .navbar{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: black;
     float: none;
     top: 50%;
@@ -107,7 +107,7 @@ body{
     width: 256px;
     height: 256px;
     perspective: 1000px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 140%;
 
 }
