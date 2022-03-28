@@ -100,7 +100,7 @@ body{
     height: 64px;
     perspective: 1000px;
     font-family: 'font', sans-serif;
-    font-size: 100%; 
+    font-size: 25%; 
 }
 
 .pdf-viewing a, .pdf-dl a{
@@ -174,7 +174,7 @@ body{
     height: 256px;
     perspective: 1000px;
     font-family: 'font', sans-serif;
-    font-size: 200%;
+    font-size: 140%;
 
 }
 
