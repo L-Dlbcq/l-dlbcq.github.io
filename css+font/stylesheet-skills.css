@@ -253,7 +253,7 @@ body{
     height: 256px;
     perspective: 1000px;
     font-family: 'font', sans-serif;
-    font-size: 145%;
+    font-size: 140%;
 }
 
 .home-interne, .profile-interne, .cursus-interne, .techno-watching-interne  {
