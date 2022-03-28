@@ -27,7 +27,7 @@ html{
     background: black;
     color: black;
     font-size: 250%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 .header h1{
     text-align: center;
@@ -48,7 +48,7 @@ body{
 
 /*DIV texte-1, texte-2 ET texte-3*/
 .texte-1, .texte-2, .texte-3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: black;
     display: block;
     text-align: center;
@@ -71,7 +71,7 @@ body{
 
 /*DIV cursus-scolaire*/
 .cursus-scolaire{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: black;
     display: block;
     text-align: center;
@@ -86,7 +86,7 @@ body{
 
 /*DIV school ET professionnal*/
 .school, .professionnal{                     
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: black;
     float: none;
     top: 50%;
@@ -119,7 +119,7 @@ body{
     width: 512px;;
     height: 256px;
     perspective: 1000px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .LSA-interne, .SDE18-interne  {
@@ -159,7 +159,7 @@ body{
 
 /*NAVBAR*/
 .navbar{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: black;
     float: none;
     top: 50%;
@@ -180,7 +180,7 @@ body{
     width: 256px;
     height: 256px;
     perspective: 1000px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 140%;
     
 }
