@@ -1,9 +1,7 @@
 /*DECLARATION FONT*/
-@font-face{
-    font-family: "font";
-    src: url('font.ttf')
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+    
 
 /*SUPPRESSION BARRE BLANCHES*/
 * {
@@ -29,7 +27,7 @@ html{
     background: black;
     color: black;
     font-size: 250%;
-    font-family: 'font', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .header h1{
     text-align: center;
@@ -50,7 +48,7 @@ body{
 
 /*DIV texte*/
 .texte {
-    font-family: 'font', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     padding: 5%;
     display: block;
@@ -94,7 +92,7 @@ body{
     width: 64px;
     height: 64px;
     perspective: 1000px;
-    font-family: 'font', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25%;
 
 }
@@ -141,7 +139,7 @@ body{
 
 /*NAVBAR*/
 .navbar{
-    font-family: 'font', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     float: none;
     top: 50%;
@@ -160,7 +158,7 @@ body{
     width: 256px;
     height: 256px;
     perspective: 1000px;
-    font-family: 'font', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 140%;
 
 }
