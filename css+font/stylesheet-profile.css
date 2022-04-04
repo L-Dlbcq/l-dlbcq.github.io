@@ -50,19 +50,21 @@ body{
 
 
 /*DIV texte*/
-.texte {
+.texte, .project {
     font-family: 'Montserrat';
     color: black;
-    padding: 5%;
     display: block;
     text-align: center;
 }
+.texte{
+    padding: 5%;
+}
 
-.texte h2{
+.texte h2, .project h2{
     text-decoration: underline;
     font-size: 250%;
 }
-.texte p{
+.texte p, .project p{
     font-size: 200%;
     font-weight: bolder;
 }
