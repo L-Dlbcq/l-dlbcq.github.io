@@ -59,7 +59,9 @@ body{
 .texte{
     padding: 5%;
 }
-
+.project{
+    padding-bottom: 5%;
+}
 .texte h2, .project h2{
     text-decoration: underline;
     font-size: 250%;
@@ -86,8 +88,7 @@ body{
     top: 50%;
     left: 50%;
     display: flex;
-    justify-content: center; 
-    padding-bottom: 2%   
+    justify-content: center;   
 }
 
 
