@@ -117,13 +117,21 @@ body{
     text-decoration: underline;
 }
 
-.LSA, .SDE18 {
+.SDE18 {
     background-color: transparent;
     width: 512px;;
     height: 256px;
     perspective: 1000px;
     font-family: 'Montserrat';
     font-size: 75%;
+}
+.LSA {
+    background-color: transparent;
+    width: 512px;;
+    height: 256px;
+    perspective: 1000px;
+    font-family: 'Montserrat';
+    font-size: 65%;
 }
 
 .LSA-interne, .SDE18-interne  {
