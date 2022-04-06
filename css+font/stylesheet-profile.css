@@ -163,7 +163,7 @@ body{
     left: 50%;
     display: flex;
     justify-content: center;
-
+    padding-bottom: 2%;
 }
 .navbar a{
     text-decoration: none;
