@@ -94,13 +94,24 @@ body{
 
 
 /*CARTE PDF-NAVBAR*/
-.pdf-viewing, .pdf-dl {
+.pdf-viewing {
     background-color: transparent;
     width: 64px;
     height: 64px;
     perspective: 1000px;
     font-family: 'Montserrat';
-    font-size: 25%; 
+    font-size: 100%;
+
+}
+
+.pdf-dl {
+    background-color: transparent;
+    width: 64px;
+    height: 64px;
+    perspective: 1000px;
+    font-family: 'Montserrat';
+    font-size: 65%;
+
 }
 
 .pdf-viewing a, .pdf-dl a{
