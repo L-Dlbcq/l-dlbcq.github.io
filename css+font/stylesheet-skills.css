@@ -48,15 +48,13 @@ body{
 }
 
 h2{
-    padding: 2%;
-    font-size: 200%;
     font-family: 'Montserrat';
     color: black;
-    float: none;
-    top: 50%;
-    left: 50%;
-    display: flex;
-    justify-content: center;
+    padding-bottom: 2%;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 200%;
 }
 
 
@@ -95,7 +93,7 @@ h2{
 
 
 /*DIV PPE ET SitPro*/
-.PPE, .SitPro {
+.AP-A, .AP-B, AP-C, .SitPro {
     font-family: 'Montserrat';
     color: black;
     float: none;
@@ -103,20 +101,17 @@ h2{
     left: 50%;
     display: flex;
     justify-content: center;
-}
-
-.PPE a, .SitPro a {
-    text-decoration: none;
-}
-
-.PPE, .SitPro{
     padding-bottom: 3%;
+}
+
+.AP-A a, .AP-B a, AP-C a, .SitPro a {
+    text-decoration: none;
 }
 
 
 
 /*CARTE PPE1 à PPE4 ET SDE18*/
-.PPE1 a, .PPE2 a, .PPE3 a, .PPE4 a, .PPE5 a, .PPE6 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
+.AP1 a, .AP2 a, .AP3 a, .AP4 a, .AP5 a, .AP6 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
     text-decoration: none;
     font-style: italic;
     color: black;
