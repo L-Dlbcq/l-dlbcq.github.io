@@ -106,6 +106,7 @@ body{
 .AP-A h2, .AP-B h2, .AP-C h2, .SitPro-A h2, .SitPro-B h2 {
     text-align: center;
     text-decoration: underline;
+    font-size: 125%;
 }
 
 
