@@ -108,7 +108,7 @@ body{
 .PPE1 a, .PPE2 a, .PPE3 a, .PPE4 a, .PPE5 a, .PPE6 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
     text-decoration: none;
     font-style: italic;
-    text-decoration: underline;
+    color: black;
 }
 
 .PPE1 , .PPE2 , .PPE3 , .PPE4, .PPE5, .PPE6, .SitPro1, .SitPro2, .SitPro3, .SitPro4, .SitPro5, .SitPro6 {
