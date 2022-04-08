@@ -112,13 +112,17 @@ h2{
     text-decoration: none;
 }
 
-.AP-A img, .AP-B img, .AP-C img, .SitPro img {
+.AP-A img, .AP-C img, .SitPro img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
+.AP-B img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 
 /*CARTE AP1 à AP6 ET SitPro1 à SitPro6 */
