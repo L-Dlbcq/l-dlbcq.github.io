@@ -101,9 +101,12 @@ h2{
     left: 50%;
     display: flex;
     justify-content: center;
-    text-align: center;
     padding-bottom: 3%;
 }
+.AP-A h2, .AP-B h2, .AP-C h2, .SitPro h2 {
+    text-align: center;
+}
+
 
 .AP-A a, .AP-B a, .AP-C a, .SitPro a {
     text-decoration: none;
