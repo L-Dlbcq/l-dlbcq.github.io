@@ -93,7 +93,7 @@ h2{
 
 
 /*DIV AP-A à AP-C ET SitPro*/
-.AP-A, .AP-B, .AP-C, .SitPro {
+.AP-A, .AP-B, .AP-C, .SitPro-A, .SitPro-B {
     font-family: 'Montserrat';
     color: black;
     float: none;
@@ -103,16 +103,18 @@ h2{
     justify-content: center;
     padding-bottom: 3%;
 }
-.AP-A h2, .AP-B h2, .AP-C h2, .SitPro h2 {
+.AP-A h2, .AP-B h2, .AP-C h2, .SitPro-A h2, .SitPro-B h2 {
     text-align: center;
 }
 
 
-.AP-A a, .AP-B a, .AP-C a, .SitPro a {
+.AP-A a, .AP-B a, .AP-C a, .SitPro-A a, .SitPro-B a {
     text-decoration: none;
+    font-style: italic;
+    color: black;
 }
 
-.AP-A img, .AP-C img, .SitPro img {
+.AP-A img, .AP-C img, .SitPro-A img, .SitPro-B img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -126,12 +128,6 @@ h2{
 
 
 /*CARTE AP1 à AP6 ET SitPro1 à SitPro6 */
-.AP1 a, .AP2 a, .AP3 a, .AP4 a, .AP5 a, .AP6 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
-    text-decoration: none;
-    font-style: italic;
-    color: black;
-}
-
 .AP1 , .AP2 , .AP3 , .AP4, .AP5, .AP6, .SitPro1, .SitPro2, .SitPro3, .SitPro4, .SitPro5, .SitPro6 {
     background-color: transparent;
     width: 288px;
