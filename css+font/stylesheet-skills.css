@@ -47,7 +47,7 @@ body{
     height: 100%;
 }
 
-h2{
+.title h2{
     font-family: 'Montserrat';
     color: black;
     padding-bottom: 2%;
