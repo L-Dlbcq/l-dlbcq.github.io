@@ -105,18 +105,18 @@ body{
 }
 
 /*CARTE PPE1 à PPE4 ET SDE18*/
-.PPE a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
+.PPE1 a, .PPE2 a, .PPE3 a, .PPE4 a, .PPE5 a, .PPE6 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
     text-decoration: none;
     color: white;
 
 }
 
-.PPE p, .SitPro1 p, .SitPro2 p, .SitPro3 p, .SitPro4 p, .SitPro5 p, .SitPro6 p {
+.PPE1 p, .PPE2 p, .PPE3 p, .PPE4 p, .PPE5 p, .PPE6 p, .SitPro1 p, .SitPro2 p, .SitPro3 p, .SitPro4 p, .SitPro5 p, .SitPro6 p {
     font-style: italic;
     text-decoration: underline;
 }
 
-.PPE, .SitPro1, .SitPro2, .SitPro3, .SitPro4, .SitPro5, .SitPro6 {
+.PPE1 , .PPE2 , .PPE3 , .PPE4, .PPE5, .PPE6 .SitPro1, .SitPro2, .SitPro3, .SitPro4, .SitPro5, .SitPro6 {
     background-color: transparent;
     width: 288px;
     height: 288px;
@@ -125,7 +125,7 @@ body{
 
 }
 
-.PPE-interne, .SitPro1-interne, .SitPro2-interne, .SitPro3-interne, .SitPro4-interne, .SitPro5-interne, .SitPro6-interne {
+.PPE1-interne, .PPE2-interne, .PPE3-interne, .PPE4-interne, .PPE5-interne, .PPE6-interne, .SitPro1-interne, .SitPro2-interne, .SitPro3-interne, .SitPro4-interne, .SitPro5-interne, .SitPro6-interne {
     position: relative;
     width: 100%;
     height: 100%;
@@ -134,11 +134,11 @@ body{
     transform-style: preserve-3d;
 }
 
-.PPE:hover .PPE-interne, .SitPro1:hover .SitPro1-interne, .SitPro2:hover .SitPro2-interne, .SitPro3:hover .SitPro3-interne, .SitPro4:hover .SitPro4-interne, .SitPro5:hover .SitPro5-interne, .SitPro6:hover .SitPro6-interne {
+.PPE1:hover .PPE1-interne, .PPE2:hover .PPE2-interne, .PPE3:hover .PPE3-interne, .PPE4:hover .PPE4-interne, .PPE5:hover .PPE5-interne, .PPE6:hover .PPE6-interne, .SitPro1:hover .SitPro1-interne, .SitPro2:hover .SitPro2-interne, .SitPro3:hover .SitPro3-interne, .SitPro4:hover .SitPro4-interne, .SitPro5:hover .SitPro5-interne, .SitPro6:hover .SitPro6-interne {
     transform: rotateY(180deg);
 }
 
-.PPE-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade, .PPE-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
+.PPE1-facade, .PPE2-facade, .PPE3-facade, .PPE4-facade, .PPE5-facade, .PPE6-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade, .PPE1-arriere, .PPE2-arriere, .PPE3-arriere, .PPE4-arriere, .PPE5-arriere, .PPE6-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -147,12 +147,12 @@ body{
     transform: rotateX(0deg);
 }
 
-.PPE-facade, .PPE2-facade, .PPE3-facade, .PPE4-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade {
+.PPE1-facade, .PPE2-facade, .PPE3-facade, .PPE4-facade, .PPE5-facade, .PPE6-facade, .SitPro1-facade, .SitPro2-facade, .SitPro3-facade, .SitPro4-facade, .SitPro5-facade, .SitPro6-facade {
     background-color: #fff;
     color: black;
 }
 
-.PPE-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
+.PPE1-arriere, .PPE2-arriere, .PPE3-arriere, .PPE4-arriere, .PPE5-arriere, .PPE6-arriere, .SitPro1-arriere, .SitPro2-arriere, .SitPro3-arriere, .SitPro4-arriere, .SitPro5-arriere, .SitPro6-arriere {
     background-color: black;
     color: white;
     font-size: 150%;
