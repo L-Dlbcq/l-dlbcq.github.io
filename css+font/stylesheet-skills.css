@@ -67,7 +67,7 @@ body{
     font-weight: bolder;
 }
 
-.texte-PPE, .texte-SitPro, .texte-Tab {
+.texte-PPE, .texte-SitPro {
     font-family: 'Montserrat';
     color: black;
     padding-bottom: 2%;
@@ -75,14 +75,15 @@ body{
     text-align: center;
 }
 
-.texte-PPE h2, .texte-SitPro h2, .texte-Tab h2{
+.texte-PPE h2, .texte-SitPro h2{
     text-decoration: underline;
     font-size: 225%;
 }
 
 
-/*DIV PPE-A, PPE-B, SitPro-A ET SitPro-B*/
-.PPE-A, .PPE-B, .SitPro-A, .SitPro-B {
+
+/*DIV PPE ET SitPro*/
+.PPE, .SitPro {
     font-family: 'Montserrat';
     color: black;
     float: none;
@@ -92,17 +93,20 @@ body{
     justify-content: center;
 }
 
-.PPE-A a, .PPE-B a, .SitPro-A a, .SitPro-B a {
+.PPE a, .SitPro a {
     text-decoration: none;
 }
 
-.PPE-A, .PPE-B, .SitPro-A{
+.PPE, .SitPro{
     padding-bottom: 1.5%;
 }
 
-.SitPro-B{
-    padding-bottom: 5%;
+.PPE h3, .SitPro h3{
+    padding: 2%;
+    font-size: 200%;
 }
+
+
 
 /*CARTE PPE1 à PPE4 ET SDE18*/
 .PPE1 a, .PPE2 a, .PPE3 a, .PPE4 a, .PPE5 a, .PPE6 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
