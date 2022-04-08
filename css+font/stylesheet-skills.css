@@ -47,6 +47,18 @@ body{
     height: 100%;
 }
 
+h2{
+    padding: 2%;
+    font-size: 200%;
+    font-family: 'Montserrat';
+    color: black;
+    float: none;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 
 /*DIV texte, texte-PPE, texte-SitPro et texte-Tab */
 .texte {
@@ -101,11 +113,6 @@ body{
     padding-bottom: 1.5%;
 }
 
-.PPE h2, .SitPro h2{
-    padding: 2%;
-    font-size: 200%;
-}
-
 
 
 /*CARTE PPE1 à PPE4 ET SDE18*/
@@ -121,6 +128,7 @@ body{
     height: 288px;
     perspective: 1000px;
     font-family: 'Montserrat';
+    padding-right: 2%;
 
 }
 
