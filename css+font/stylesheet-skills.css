@@ -101,6 +101,7 @@ h2{
     left: 50%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-bottom: 3%;
 }
 
