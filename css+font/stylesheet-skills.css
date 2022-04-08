@@ -107,13 +107,11 @@ body{
 /*CARTE PPE1 à PPE4 ET SDE18*/
 .PPE1 a, .PPE2 a, .PPE3 a, .PPE4 a, .PPE5 a, .PPE6 a, .SitPro1 a, .SitPro2 a, .SitPro3 a, .SitPro4 a, .SitPro5 a, .SitPro6 a {
     text-decoration: none;
-
-}
-
-.PPE1 p, .PPE2 p, .PPE3 p, .PPE4 p, .PPE5 p, .PPE6 p, .SitPro1 p, .SitPro2 p, .SitPro3 p, .SitPro4 p, .SitPro5 p, .SitPro6 p {
     font-style: italic;
     text-decoration: underline;
+
 }
+
 
 
 
