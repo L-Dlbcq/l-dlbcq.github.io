@@ -105,14 +105,14 @@ body{
 }
 
 
-/*CARTE LSA ET SDE18*/
-.LSA a, .SDE18 a{
+/*CARTE LSA, CESI, SDE18 et ADISTA*/
+.LSA a, .SDE18 a, .CESI a, .ADISTA a{
     text-decoration: none;
     color: white;
 
 }
 
-.LSA p, .SDE18 p {
+.LSA p, .SDE18 p, .CESI p, .ADISTA p {
     font-style: italic;
     text-decoration: underline;
 }
@@ -134,7 +134,25 @@ body{
     font-size: 65%;
 }
 
-.LSA-interne, .SDE18-interne  {
+.CESI {
+    background-color: transparent;
+    width: 512px;;
+    height: 256px;
+    perspective: 1000px;
+    font-family: 'Montserrat';
+    font-size: 65%;
+}
+
+.ADISTA {
+    background-color: transparent;
+    width: 512px;;
+    height: 256px;
+    perspective: 1000px;
+    font-family: 'Montserrat';
+    font-size: 65%;
+}
+
+.LSA-interne, .SDE18-interne, .CESI-interne, .ADISTA-interne  {
     position: relative;
     width: 100%;
     height: 100%;
@@ -143,11 +161,11 @@ body{
     transform-style: preserve-3d;
 }
 
-.LSA:hover .LSA-interne, .SDE18:hover .SDE18-interne {
+.LSA:hover .LSA-interne, .SDE18:hover .SDE18-interne, .CESI:hover .CESI-interne, .ADISTA:hover .ADISTA-interne {
     transform: rotateY(180deg);
 }
 
-.LSA-facade, .SDE18-facade, .LSA-arriere, .SDE18-arriere {
+.LSA-facade, .SDE18-facade, .LSA-arriere, .SDE18-arriere, .CESI-facade, .ADISTA-facade, .CESI-arriere, .ADISTA-arriere {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -156,12 +174,12 @@ body{
     transform: rotateX(0deg);
 }
 
-.LSA-facade, .SDE18-facade {
+.LSA-facade, .SDE18-facade, .CESI-facade, .ADISTA-facade {
     background-color: #fff;
     color: black;
 }
 
-.LSA-arriere, .SDE18-arriere {
+.LSA-arriere, .SDE18-arriere, .CESI-arriere, .ADISTA-arriere {
     background-color: black;
     color: white;
     font-size: 150%;
