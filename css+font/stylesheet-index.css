@@ -1,0 +1,170 @@
+/*DECLARATION FONT*/
+@font-face{
+    font-family: "Montserrat";
+    src: url('Montserrat-Regular.ttf');
+}
+
+
+
+/*SUPPRESSION BARRE BLANCHES*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/*HTML*/
+html{
+    height: 100%;
+}
+
+
+/*DIV header*/
+.header {
+    padding: 2.01%;
+    background: black;
+    color: black;
+    font-size: 250%;
+    font-family: 'Montserrat';
+}
+.header h1{
+    text-align: center;
+    color: white;
+}
+.header p{
+    text-align: center;
+}
+
+
+/*BODY*/
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+}
+
+
+
+/*DIV texte ET texte-PPE */
+.texte {
+    font-family: 'Montserrat';
+    color: black;
+    padding: 5%;
+    display: block;
+    text-align: center;
+}
+
+.texte h2{
+    text-decoration: underline;
+    font-size: 250%;
+}
+
+.texte p{
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.texte-PPE, .texte-SitPro {
+    font-family: 'Montserrat';
+    color: black;
+    padding-bottom: 2%;
+    display: block;
+    text-align: center;
+}
+
+.texte-PPE h2, .texte-SitPro{
+    text-decoration: underline;
+    font-size: 250%;
+}
+
+
+
+/*NAVBAR*/
+.navbar{
+    font-family: 'Montserrat';
+    color: black;
+    float: none;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+
+/*CARTE NAVBAR*/
+.profile, .cursus, .skills, .techno-watching {
+    background-color: transparent;
+    width: 256px;
+    height: 256px;
+    perspective: 1000px;
+    font-family: 'Montserrat';
+    font-size: 140%;
+
+}
+
+.profile-interne, .cursus-interne, .skills-interne, .techno-watching-interne  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.profile:hover .profile-interne,  .cursus:hover .cursus-interne , .skills:hover .skills-interne , .techno-watching:hover .techno-watching-interne {
+    transform: rotateY(180deg);
+}
+
+.profile-facade, .cursus-facade, .skills-facade, .techno-watching-facade, .profile-arriere, .cursus-arriere, .skills-arriere, .techno-watching-arriere {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+}
+
+.profile-facade, .cursus-facade, .skills-facade, .techno-watching-facade {
+    background-color: #fff;
+    color: black;
+}
+
+.profile-arriere, .cursus-arriere, .skills-arriere, .techno-watching-arriere {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transform: rotateY(180deg);
+}                    
+
+
+/*FOOTER*/
+.footer {
+    position: sticky;
+    width:100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-content-center{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+
+/*CARTE FOOTER*/
+.github:hover, .twitter:hover, .instagram:hover, .linkedin:hover {
+    background-color:lightgray;
+}
