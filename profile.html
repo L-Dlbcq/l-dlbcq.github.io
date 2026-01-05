@@ -48,46 +48,58 @@
       </div>
   </section>
 
- <!-- Section Opportunités professionnelles -->
+<!-- Section Opportunités professionnelles -->
 <section class="py-20 px-6 bg-gradient-to-br from-slate-900 to-emerald-950" data-aos="fade-up">
   <div class="container mx-auto max-w-4xl">
-    <h2 class="text-4xl font-black mb-8 bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent">
+    
+    <!-- Titre sans marge excessive -->
+    <h2 class="text-4xl font-black mb-6 bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent">
       Opportunités Professionnelles
     </h2>
     
-    <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-emerald-500/30 mb-8">
-      <p class="text-xl text-gray-200 mb-6">
+    <!-- Badge compact (marge réduite) -->
+    <div class="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 mb-6 border border-emerald-500/30"> <!-- p-8→p-6, mb-8→mb-6 -->
+      <p class="text-xl text-gray-200 leading-tight"> <!-- leading-tight anti-espacement -->
         🚀 <strong>Architecte Sécurité Réseau</strong> certifié CESI (Mastère Cybersécurité des SI)<br>
         Conception & sécurisation d'infrastructures critiques à <strong>Bourges</strong>
       </p>
     </div>
 
-    <div class="space-y-6 text-lg">
-      <p class="text-gray-300">
+    <!-- Contenu -->
+    <div class="space-y-4 text-lg"> <!-- space-y-6→4 plus compact -->
+      
+      <p class="text-gray-300 text-xl">
         💼 <strong>Expertise confirmée :</strong>
       </p>
-      <ul class="text-gray-400 space-y-3 mb-8 ml-6">
+      
+      <ul class="text-gray-400 space-y-2 mb-6 ml-6"> <!-- space-y-3→2, mb-8→6 -->
         <li>• Architecture multi-site : <strong>BGP, OSPF, VRF</strong> interconnexions WAN</li>
         <li>• Cybersécurité SI : <strong>NVR surveillance, NAT sécurisé, Firewall</strong></li>
       </ul>
 
-      <p class="text-gray-400">
+      <p class="text-gray-400 mb-4">
         📍 Basé à <a href="https://www.ville-bourges.fr/" target="_blank" class="text-emerald-400 hover:underline font-semibold">Bourges</a><br>
-        Mobile <strong>national</strong> pour projets cybersécurité 
+        Mobile <strong>national</strong> pour projets cybersécurité
       </p>
 
+      <p class="text-gray-400 mb-6">
+        🎯 <strong>Évolutions :</strong> Lead Architecte SI, Directeur Sécurité
+      </p>
 
-      <div class="bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white p-6 rounded-2xl text-center shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300">
-        <p class="text-2xl font-bold mb-2">👉 Recruteurs Sécurité Réseau</p>
-        <p class="text-lg mb-4">Vous avez besoin d'un architecte réseau et sécurité ?</p>
+      <!-- Bouton LinkedIn fixé (fond sombre → texte foncé) -->
+      <div class="bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-gray-900 p-6 rounded-2xl text-center shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300"> <!-- text-white→text-gray-900 -->
+        <p class="text-xl font-bold mb-3">👉 Recruteurs Sécurité Réseau</p>
+        <p class="text-lg mb-4 opacity-95">BGP/Docker/NVR ? Contactez l'architecte expérimenté</p>
         <a href="https://linkedin.com/in/louis-dolbecq" target="_blank" 
-           class="inline-block bg-white text-emerald-700 px-8 py-3 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all">
-          Échangeons sur LinkedIn
+           class="inline-block bg-emerald-100 hover:bg-white text-emerald-800 px-8 py-3 rounded-xl font-bold text-lg shadow-lg hover:shadow-emerald-300 transition-all border-2 border-emerald-200 hover:border-emerald-300">
+          💼 Discussions LinkedIn Pro
         </a>
       </div>
+      
     </div>
   </div>
 </section>
+
 
   <!-- Footer -->
   <footer class="bg-gray-900 p-6 text-center text-gray-500 text-sm">
